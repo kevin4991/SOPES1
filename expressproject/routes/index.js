@@ -2,11 +2,7 @@ var express = require('express');
 var router = express.Router();
 var app = express();
 
-/* GET home page. */
-router.get('/index', function(req, res, next) {
-  res.render('index', { title: 'MiniTwitter' });
-  console.log("Inicio");
-});
+
 
 /*
 var WebSocketServer = require('websocket').server;
@@ -83,10 +79,45 @@ var net = require('net');
 var HOST = '127.0.0.1'; // parameterize the IP of the Listen
 var PORT = 5000; // TCP LISTEN port
 
+//conexion con mongodb
+
+/*
+var MongoClient = require('mongodb').MongoClient;
+var Servidor = require('mongodb').Server;
+var mongoCliente = new MongoClient(new Servidor('localhost',27017));
+*/
+
+var mongodb = require('mongodb');
+var MongoClient = require('mongodb').MongoClient;
+var db;
+
+
+MongoClient.connect("mongodb://localhost:27017", {useNewUrlParser : true},
+	function(err, database) {
+		if(err) throw err;
+		db = database.db('twitter');
+  		// Start the application after the database connection is ready
+	}
+);
+
+
+/*
+const db_n = MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, 
+		function(err, db) {
+			if (err) {
+				//throw err;
+				return null;
+			}else{
+				return db;
+				//db_n = db;
+			}
+		}
+	);
+*/
+
 
 // Create an instance of the Server and waits for a conexão
 net.createServer(function(sock) {
-
 
   // Receives a connection - a socket object is associated to the connection automatically
   //console.log('CONNECTED: ' + sock.remoteAddress +':'+ sock.remotePort);
@@ -105,12 +136,38 @@ net.createServer(function(sock) {
 	  if(arr.length == 3){
 	  	var usuario = (arr[0]).split("=")[1];
 	  	var nombre = arr[1].split("=")[1];
-	  	var texto = arr[2].split("=")[1];
+	  	var texto = arr[2].split("=")[1].trim();
+	  	var categoria = texto.split("#")[1].split(" ")[0].trim();
 
-		console.log("-- USR => " + usuario + "\n : NOMBRE => " + nombre + "\n : TEXTO = " + texto + " : espacios => " + arr.length + "\n");
+	  	var registro =  { "alias_usuario" : usuario
+	  					, "nombre_usuario" : nombre
+	  					, "txt_mensaje" : texto
+	  					, "categoria_mensaje" : categoria  
+	  					};
 
+	  	
+		var coleccion = db.collection('TWITS');
+		coleccion.insertOne(registro);		
+
+/*
+		var MongoClient = require('mongodb').MongoClient;
+
+		MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, function(err, db) {
+			if (err) {
+				throw err;
+			}else{
+
+				const dbs = db.db('twitter');
+				var coleccion = dbs.collection('TWITS');
+				coleccion.insertOne(registro);
+
+			}
+
+			//console.log("-- USR => " + usuario + "\n : NOMBRE => " + nombre + "\n : TEXTO = " + texto + " : espacios => " + arr.length + " : categoria=> " + categoria + "\n");
+		});
+		*/
 	  }else{
-	  	console.log("Mensaje incorrecto, la cadena enviada no es reconocida!!");
+	  	//console.log("Mensaje incorrecto, la cadena enviada no es reconocida!!");
 	  }
 
 
@@ -154,6 +211,11 @@ net.createServer(function(sock) {
 
 console.log('Server listening on ' + HOST +':'+ PORT);
 
+/* GET home page. */
+router.get('/index', function(req, res, next) {
+  res.render('index', { title: 'MiniTwitter' });
+  console.log("Inicio");
+});
 
 
 module.exports = router;
