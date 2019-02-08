@@ -1,0 +1,1214 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'rebuild' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 info readInstalled object
+5 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject',
+5 verbose rebuild   'expressproject@0.0.0' ]
+6 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/cookie-parser',
+6 verbose rebuild   'cookie-parser@1.4.3' ]
+7 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/cookie-parser/node_modules/cookie',
+7 verbose rebuild   'cookie@0.3.1' ]
+8 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/cookie-parser/node_modules/cookie-signature',
+8 verbose rebuild   'cookie-signature@1.0.6' ]
+9 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/debug',
+9 verbose rebuild   'debug@2.6.9' ]
+10 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/debug/node_modules/ms',
+10 verbose rebuild   'ms@2.0.0' ]
+11 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express',
+11 verbose rebuild   'express@4.16.4' ]
+12 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts',
+12 verbose rebuild   'accepts@1.3.5' ]
+13 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/mime-types',
+13 verbose rebuild   'mime-types@2.1.21' ]
+14 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db',
+14 verbose rebuild   'mime-db@1.37.0' ]
+15 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/negotiator',
+15 verbose rebuild   'negotiator@0.6.1' ]
+16 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/array-flatten',
+16 verbose rebuild   'array-flatten@1.1.1' ]
+17 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser',
+17 verbose rebuild   'body-parser@1.18.3' ]
+18 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/bytes',
+18 verbose rebuild   'bytes@3.0.0' ]
+19 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/content-type',
+19 verbose rebuild   'content-type@1.0.4' ]
+20 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/depd',
+20 verbose rebuild   'depd@1.1.2' ]
+21 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/http-errors',
+21 verbose rebuild   'http-errors@1.6.3' ]
+22 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/depd',
+22 verbose rebuild   'depd@1.1.2' ]
+23 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/inherits',
+23 verbose rebuild   'inherits@2.0.3' ]
+24 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/setprototypeof',
+24 verbose rebuild   'setprototypeof@1.1.0' ]
+25 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/statuses',
+25 verbose rebuild   'statuses@1.5.0' ]
+26 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/iconv-lite',
+26 verbose rebuild   'iconv-lite@0.4.23' ]
+27 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/iconv-lite/node_modules/safer-buffer',
+27 verbose rebuild   'safer-buffer@2.1.2' ]
+28 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/on-finished',
+28 verbose rebuild   'on-finished@2.3.0' ]
+29 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/on-finished/node_modules/ee-first',
+29 verbose rebuild   'ee-first@1.1.1' ]
+30 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/qs',
+30 verbose rebuild   'qs@6.5.2' ]
+31 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/raw-body',
+31 verbose rebuild   'raw-body@2.3.3' ]
+32 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe',
+32 verbose rebuild   'unpipe@1.0.0' ]
+33 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is',
+33 verbose rebuild   'type-is@1.6.16' ]
+34 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/media-typer',
+34 verbose rebuild   'media-typer@0.3.0' ]
+35 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/mime-types',
+35 verbose rebuild   'mime-types@2.1.21' ]
+36 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db',
+36 verbose rebuild   'mime-db@1.37.0' ]
+37 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/content-disposition',
+37 verbose rebuild   'content-disposition@0.5.2' ]
+38 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/cookie',
+38 verbose rebuild   'cookie@0.3.1' ]
+39 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/cookie-signature',
+39 verbose rebuild   'cookie-signature@1.0.6' ]
+40 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/encodeurl',
+40 verbose rebuild   'encodeurl@1.0.2' ]
+41 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/escape-html',
+41 verbose rebuild   'escape-html@1.0.3' ]
+42 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/etag',
+42 verbose rebuild   'etag@1.8.1' ]
+43 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/finalhandler',
+43 verbose rebuild   'finalhandler@1.1.1' ]
+44 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/parseurl',
+44 verbose rebuild   'parseurl@1.3.2' ]
+45 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/statuses',
+45 verbose rebuild   'statuses@1.4.0' ]
+46 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/finalhandler/node_modules/unpipe',
+46 verbose rebuild   'unpipe@1.0.0' ]
+47 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/fresh',
+47 verbose rebuild   'fresh@0.5.2' ]
+48 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/merge-descriptors',
+48 verbose rebuild   'merge-descriptors@1.0.1' ]
+49 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/methods',
+49 verbose rebuild   'methods@1.1.2' ]
+50 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/path-to-regexp',
+50 verbose rebuild   'path-to-regexp@0.1.7' ]
+51 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr',
+51 verbose rebuild   'proxy-addr@2.0.4' ]
+52 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr/node_modules/forwarded',
+52 verbose rebuild   'forwarded@0.1.2' ]
+53 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js',
+53 verbose rebuild   'ipaddr.js@1.8.0' ]
+54 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/range-parser',
+54 verbose rebuild   'range-parser@1.2.0' ]
+55 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/safe-buffer',
+55 verbose rebuild   'safe-buffer@5.1.2' ]
+56 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send',
+56 verbose rebuild   'send@0.16.2' ]
+57 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/destroy',
+57 verbose rebuild   'destroy@1.0.4' ]
+58 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/mime',
+58 verbose rebuild   'mime@1.4.1' ]
+59 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/ms',
+59 verbose rebuild   'ms@2.0.0' ]
+60 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/serve-static',
+60 verbose rebuild   'serve-static@1.13.2' ]
+61 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/setprototypeof',
+61 verbose rebuild   'setprototypeof@1.1.0' ]
+62 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/utils-merge',
+62 verbose rebuild   'utils-merge@1.0.1' ]
+63 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/vary',
+63 verbose rebuild   'vary@1.1.2' ]
+64 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express-ws',
+64 verbose rebuild   'express-ws@4.0.0' ]
+65 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express-ws/node_modules/ws',
+65 verbose rebuild   'ws@5.2.2' ]
+66 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/express-ws/node_modules/ws/node_modules/async-limiter',
+66 verbose rebuild   'async-limiter@1.0.0' ]
+67 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade',
+67 verbose rebuild   'jade@1.11.0' ]
+68 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/character-parser',
+68 verbose rebuild   'character-parser@1.2.1' ]
+69 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css',
+69 verbose rebuild   'clean-css@3.4.28' ]
+70 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css/node_modules/commander',
+70 verbose rebuild   'commander@2.8.1' ]
+71 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css/node_modules/commander/node_modules/graceful-readlink',
+71 verbose rebuild   'graceful-readlink@1.0.1' ]
+72 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css/node_modules/source-map',
+72 verbose rebuild   'source-map@0.4.4' ]
+73 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css/node_modules/source-map/node_modules/amdefine',
+73 verbose rebuild   'amdefine@1.0.1' ]
+74 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/commander',
+74 verbose rebuild   'commander@2.6.0' ]
+75 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/constantinople',
+75 verbose rebuild   'constantinople@3.0.2' ]
+76 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/constantinople/node_modules/acorn',
+76 verbose rebuild   'acorn@2.7.0' ]
+77 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/jstransformer',
+77 verbose rebuild   'jstransformer@0.0.2' ]
+78 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/jstransformer/node_modules/is-promise',
+78 verbose rebuild   'is-promise@2.1.0' ]
+79 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/jstransformer/node_modules/promise',
+79 verbose rebuild   'promise@6.1.0' ]
+80 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/jstransformer/node_modules/promise/node_modules/asap',
+80 verbose rebuild   'asap@1.0.0' ]
+81 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/mkdirp',
+81 verbose rebuild   'mkdirp@0.5.1' ]
+82 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/mkdirp/node_modules/minimist',
+82 verbose rebuild   'minimist@0.0.8' ]
+83 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers',
+83 verbose rebuild   'transformers@2.1.0' ]
+84 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/promise',
+84 verbose rebuild   'promise@2.0.0' ]
+85 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise',
+85 verbose rebuild   'is-promise@1.0.1' ]
+86 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/css',
+86 verbose rebuild   'css@1.0.8' ]
+87 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse',
+87 verbose rebuild   'css-parse@1.0.4' ]
+88 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify',
+88 verbose rebuild   'css-stringify@1.0.5' ]
+89 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js',
+89 verbose rebuild   'uglify-js@2.2.5' ]
+90 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map',
+90 verbose rebuild   'source-map@0.1.43' ]
+91 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+91 verbose rebuild   'amdefine@1.0.1' ]
+92 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist',
+92 verbose rebuild   'optimist@0.3.7' ]
+93 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+93 verbose rebuild   'wordwrap@0.0.3' ]
+94 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js',
+94 verbose rebuild   'uglify-js@2.8.29' ]
+95 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/source-map',
+95 verbose rebuild   'source-map@0.5.7' ]
+96 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs',
+96 verbose rebuild   'yargs@3.10.0' ]
+97 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/camelcase',
+97 verbose rebuild   'camelcase@1.2.1' ]
+98 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui',
+98 verbose rebuild   'cliui@2.1.0' ]
+99 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align',
+99 verbose rebuild   'center-align@0.1.3' ]
+100 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text',
+100 verbose rebuild   'align-text@0.1.4' ]
+101 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of',
+101 verbose rebuild   'kind-of@3.2.2' ]
+102 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer',
+102 verbose rebuild   'is-buffer@1.1.6' ]
+103 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/longest',
+103 verbose rebuild   'longest@1.0.1' ]
+104 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/repeat-string',
+104 verbose rebuild   'repeat-string@1.6.1' ]
+105 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/lazy-cache',
+105 verbose rebuild   'lazy-cache@1.0.4' ]
+106 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align',
+106 verbose rebuild   'right-align@0.1.3' ]
+107 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text',
+107 verbose rebuild   'align-text@0.1.4' ]
+108 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of',
+108 verbose rebuild   'kind-of@3.2.2' ]
+109 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer',
+109 verbose rebuild   'is-buffer@1.1.6' ]
+110 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/longest',
+110 verbose rebuild   'longest@1.0.1' ]
+111 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/repeat-string',
+111 verbose rebuild   'repeat-string@1.6.1' ]
+112 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap',
+112 verbose rebuild   'wordwrap@0.0.2' ]
+113 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize',
+113 verbose rebuild   'decamelize@1.2.0' ]
+114 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/window-size',
+114 verbose rebuild   'window-size@0.1.0' ]
+115 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/uglify-to-browserify',
+115 verbose rebuild   'uglify-to-browserify@1.0.2' ]
+116 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/void-elements',
+116 verbose rebuild   'void-elements@2.0.1' ]
+117 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/with',
+117 verbose rebuild   'with@4.0.3' ]
+118 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/with/node_modules/acorn',
+118 verbose rebuild   'acorn@1.2.2' ]
+119 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/with/node_modules/acorn-globals',
+119 verbose rebuild   'acorn-globals@1.0.9' ]
+120 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn',
+120 verbose rebuild   'acorn@2.7.0' ]
+121 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/morgan',
+121 verbose rebuild   'morgan@1.9.1' ]
+122 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/basic-auth',
+122 verbose rebuild   'basic-auth@2.0.1' ]
+123 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/basic-auth/node_modules/safe-buffer',
+123 verbose rebuild   'safe-buffer@5.1.2' ]
+124 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/depd',
+124 verbose rebuild   'depd@1.1.2' ]
+125 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/on-finished',
+125 verbose rebuild   'on-finished@2.3.0' ]
+126 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/on-finished/node_modules/ee-first',
+126 verbose rebuild   'ee-first@1.1.1' ]
+127 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/on-headers',
+127 verbose rebuild   'on-headers@1.0.1' ]
+128 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/ws',
+128 verbose rebuild   'ws@6.1.3' ]
+129 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/ws/node_modules/async-limiter',
+129 verbose rebuild   'async-limiter@1.0.0' ]
+130 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/websocket',
+130 verbose rebuild   'websocket@1.0.28' ]
+131 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/websocket/node_modules/nan',
+131 verbose rebuild   'nan@2.12.1' ]
+132 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/websocket/node_modules/typedarray-to-buffer',
+132 verbose rebuild   'typedarray-to-buffer@3.1.5' ]
+133 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/websocket/node_modules/typedarray-to-buffer/node_modules/is-typedarray',
+133 verbose rebuild   'is-typedarray@1.0.0' ]
+134 verbose rebuild path, id [ '/home/jerson/Escritorio/expressproject/node_modules/websocket/node_modules/yaeti',
+134 verbose rebuild   'yaeti@0.0.6' ]
+135 silly rebuild set [ '/home/jerson/Escritorio/expressproject/node_modules/cookie-parser',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/cookie-parser/node_modules/cookie',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/cookie-parser/node_modules/cookie-signature',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/debug',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/debug/node_modules/ms',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/mime-types',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/negotiator',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/array-flatten',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/bytes',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/content-type',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/depd',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/http-errors',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/depd',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/inherits',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/setprototypeof',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/statuses',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/iconv-lite',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/iconv-lite/node_modules/safer-buffer',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/on-finished',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/on-finished/node_modules/ee-first',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/qs',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/raw-body',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/media-typer',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/mime-types',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/content-disposition',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/cookie',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/cookie-signature',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/encodeurl',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/escape-html',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/etag',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/finalhandler',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/parseurl',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/statuses',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/finalhandler/node_modules/unpipe',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/fresh',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/merge-descriptors',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/methods',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/path-to-regexp',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr/node_modules/forwarded',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/range-parser',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/safe-buffer',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/destroy',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/mime',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/ms',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/serve-static',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/setprototypeof',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/utils-merge',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/vary',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express-ws',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express-ws/node_modules/ws',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/express-ws/node_modules/ws/node_modules/async-limiter',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/character-parser',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css/node_modules/commander',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css/node_modules/commander/node_modules/graceful-readlink',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css/node_modules/source-map',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/clean-css/node_modules/source-map/node_modules/amdefine',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/commander',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/constantinople',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/constantinople/node_modules/acorn',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/jstransformer',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/jstransformer/node_modules/is-promise',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/jstransformer/node_modules/promise',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/jstransformer/node_modules/promise/node_modules/asap',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/mkdirp',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/mkdirp/node_modules/minimist',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/promise',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/css',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/source-map',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/camelcase',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/longest',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/repeat-string',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/lazy-cache',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/longest',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/repeat-string',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/window-size',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/uglify-js/node_modules/uglify-to-browserify',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/void-elements',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/with',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/with/node_modules/acorn',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/with/node_modules/acorn-globals',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/morgan',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/basic-auth',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/basic-auth/node_modules/safe-buffer',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/depd',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/on-finished',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/on-finished/node_modules/ee-first',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/morgan/node_modules/on-headers',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/ws',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/ws/node_modules/async-limiter',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/websocket',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/websocket/node_modules/nan',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/websocket/node_modules/typedarray-to-buffer',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/websocket/node_modules/typedarray-to-buffer/node_modules/is-typedarray',
+135 silly rebuild set   '/home/jerson/Escritorio/expressproject/node_modules/websocket/node_modules/yaeti' ]
+136 info build /home/jerson/Escritorio/expressproject/node_modules/cookie-parser
+137 info preinstall cookie-parser@1.4.3
+138 verbose linkStuff [ false,
+138 verbose linkStuff   false,
+138 verbose linkStuff   false,
+138 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules' ]
+139 info linkStuff cookie-parser@1.4.3
+140 verbose linkBins cookie-parser@1.4.3
+141 verbose linkMans cookie-parser@1.4.3
+142 verbose rebuildBundles cookie-parser@1.4.3
+143 verbose rebuildBundles [ 'cookie', 'cookie-signature' ]
+144 info install cookie-parser@1.4.3
+145 info postinstall cookie-parser@1.4.3
+146 info build /home/jerson/Escritorio/expressproject/node_modules/cookie-parser/node_modules/cookie
+147 info preinstall cookie@0.3.1
+148 verbose linkStuff [ false,
+148 verbose linkStuff   false,
+148 verbose linkStuff   false,
+148 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/cookie-parser/node_modules' ]
+149 info linkStuff cookie@0.3.1
+150 verbose linkBins cookie@0.3.1
+151 verbose linkMans cookie@0.3.1
+152 verbose rebuildBundles cookie@0.3.1
+153 info install cookie@0.3.1
+154 info postinstall cookie@0.3.1
+155 info build /home/jerson/Escritorio/expressproject/node_modules/cookie-parser/node_modules/cookie-signature
+156 info preinstall cookie-signature@1.0.6
+157 verbose linkStuff [ false,
+157 verbose linkStuff   false,
+157 verbose linkStuff   false,
+157 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/cookie-parser/node_modules' ]
+158 info linkStuff cookie-signature@1.0.6
+159 verbose linkBins cookie-signature@1.0.6
+160 verbose linkMans cookie-signature@1.0.6
+161 verbose rebuildBundles cookie-signature@1.0.6
+162 info install cookie-signature@1.0.6
+163 info postinstall cookie-signature@1.0.6
+164 info build /home/jerson/Escritorio/expressproject/node_modules/debug
+165 info preinstall debug@2.6.9
+166 verbose linkStuff [ false,
+166 verbose linkStuff   false,
+166 verbose linkStuff   false,
+166 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules' ]
+167 info linkStuff debug@2.6.9
+168 verbose linkBins debug@2.6.9
+169 verbose linkMans debug@2.6.9
+170 verbose rebuildBundles debug@2.6.9
+171 verbose rebuildBundles [ 'ms' ]
+172 info install debug@2.6.9
+173 info postinstall debug@2.6.9
+174 info build /home/jerson/Escritorio/expressproject/node_modules/debug/node_modules/ms
+175 info preinstall ms@2.0.0
+176 verbose linkStuff [ false,
+176 verbose linkStuff   false,
+176 verbose linkStuff   false,
+176 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/debug/node_modules' ]
+177 info linkStuff ms@2.0.0
+178 verbose linkBins ms@2.0.0
+179 verbose linkMans ms@2.0.0
+180 verbose rebuildBundles ms@2.0.0
+181 info install ms@2.0.0
+182 info postinstall ms@2.0.0
+183 info build /home/jerson/Escritorio/expressproject/node_modules/express
+184 info preinstall express@4.16.4
+185 verbose linkStuff [ false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules' ]
+186 info linkStuff express@4.16.4
+187 verbose linkBins express@4.16.4
+188 verbose linkMans express@4.16.4
+189 verbose rebuildBundles express@4.16.4
+190 verbose rebuildBundles [ 'accepts',
+190 verbose rebuildBundles   'array-flatten',
+190 verbose rebuildBundles   'body-parser',
+190 verbose rebuildBundles   'content-disposition',
+190 verbose rebuildBundles   'content-type',
+190 verbose rebuildBundles   'cookie',
+190 verbose rebuildBundles   'cookie-signature',
+190 verbose rebuildBundles   'depd',
+190 verbose rebuildBundles   'encodeurl',
+190 verbose rebuildBundles   'escape-html',
+190 verbose rebuildBundles   'etag',
+190 verbose rebuildBundles   'finalhandler',
+190 verbose rebuildBundles   'fresh',
+190 verbose rebuildBundles   'merge-descriptors',
+190 verbose rebuildBundles   'methods',
+190 verbose rebuildBundles   'on-finished',
+190 verbose rebuildBundles   'parseurl',
+190 verbose rebuildBundles   'path-to-regexp',
+190 verbose rebuildBundles   'proxy-addr',
+190 verbose rebuildBundles   'qs',
+190 verbose rebuildBundles   'range-parser',
+190 verbose rebuildBundles   'safe-buffer',
+190 verbose rebuildBundles   'send',
+190 verbose rebuildBundles   'serve-static',
+190 verbose rebuildBundles   'setprototypeof',
+190 verbose rebuildBundles   'statuses',
+190 verbose rebuildBundles   'type-is',
+190 verbose rebuildBundles   'utils-merge',
+190 verbose rebuildBundles   'vary' ]
+191 info install express@4.16.4
+192 info postinstall express@4.16.4
+193 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts
+194 info preinstall accepts@1.3.5
+195 verbose linkStuff [ false,
+195 verbose linkStuff   false,
+195 verbose linkStuff   false,
+195 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+196 info linkStuff accepts@1.3.5
+197 verbose linkBins accepts@1.3.5
+198 verbose linkMans accepts@1.3.5
+199 verbose rebuildBundles accepts@1.3.5
+200 verbose rebuildBundles [ 'mime-types', 'negotiator' ]
+201 info install accepts@1.3.5
+202 info postinstall accepts@1.3.5
+203 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/mime-types
+204 info preinstall mime-types@2.1.21
+205 verbose linkStuff [ false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules' ]
+206 info linkStuff mime-types@2.1.21
+207 verbose linkBins mime-types@2.1.21
+208 verbose linkMans mime-types@2.1.21
+209 verbose rebuildBundles mime-types@2.1.21
+210 verbose rebuildBundles [ 'mime-db' ]
+211 info install mime-types@2.1.21
+212 info postinstall mime-types@2.1.21
+213 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db
+214 info preinstall mime-db@1.37.0
+215 verbose linkStuff [ false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules' ]
+216 info linkStuff mime-db@1.37.0
+217 verbose linkBins mime-db@1.37.0
+218 verbose linkMans mime-db@1.37.0
+219 verbose rebuildBundles mime-db@1.37.0
+220 info install mime-db@1.37.0
+221 info postinstall mime-db@1.37.0
+222 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules/negotiator
+223 info preinstall negotiator@0.6.1
+224 verbose linkStuff [ false,
+224 verbose linkStuff   false,
+224 verbose linkStuff   false,
+224 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/accepts/node_modules' ]
+225 info linkStuff negotiator@0.6.1
+226 verbose linkBins negotiator@0.6.1
+227 verbose linkMans negotiator@0.6.1
+228 verbose rebuildBundles negotiator@0.6.1
+229 info install negotiator@0.6.1
+230 info postinstall negotiator@0.6.1
+231 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/array-flatten
+232 info preinstall array-flatten@1.1.1
+233 verbose linkStuff [ false,
+233 verbose linkStuff   false,
+233 verbose linkStuff   false,
+233 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+234 info linkStuff array-flatten@1.1.1
+235 verbose linkBins array-flatten@1.1.1
+236 verbose linkMans array-flatten@1.1.1
+237 verbose rebuildBundles array-flatten@1.1.1
+238 info install array-flatten@1.1.1
+239 info postinstall array-flatten@1.1.1
+240 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser
+241 info preinstall body-parser@1.18.3
+242 verbose linkStuff [ false,
+242 verbose linkStuff   false,
+242 verbose linkStuff   false,
+242 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+243 info linkStuff body-parser@1.18.3
+244 verbose linkBins body-parser@1.18.3
+245 verbose linkMans body-parser@1.18.3
+246 verbose rebuildBundles body-parser@1.18.3
+247 verbose rebuildBundles [ 'bytes', 'iconv-lite', 'raw-body' ]
+248 info install body-parser@1.18.3
+249 info postinstall body-parser@1.18.3
+250 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/bytes
+251 info preinstall bytes@3.0.0
+252 verbose linkStuff [ false,
+252 verbose linkStuff   false,
+252 verbose linkStuff   false,
+252 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules' ]
+253 info linkStuff bytes@3.0.0
+254 verbose linkBins bytes@3.0.0
+255 verbose linkMans bytes@3.0.0
+256 verbose rebuildBundles bytes@3.0.0
+257 info install bytes@3.0.0
+258 info postinstall bytes@3.0.0
+259 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/content-type
+260 info preinstall content-type@1.0.4
+261 verbose linkStuff [ false,
+261 verbose linkStuff   false,
+261 verbose linkStuff   false,
+261 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+262 info linkStuff content-type@1.0.4
+263 verbose linkBins content-type@1.0.4
+264 verbose linkMans content-type@1.0.4
+265 verbose rebuildBundles content-type@1.0.4
+266 info install content-type@1.0.4
+267 info postinstall content-type@1.0.4
+268 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/depd
+269 info preinstall depd@1.1.2
+270 verbose linkStuff [ false,
+270 verbose linkStuff   false,
+270 verbose linkStuff   false,
+270 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+271 info linkStuff depd@1.1.2
+272 verbose linkBins depd@1.1.2
+273 verbose linkMans depd@1.1.2
+274 verbose rebuildBundles depd@1.1.2
+275 info install depd@1.1.2
+276 info postinstall depd@1.1.2
+277 info build /home/jerson/Escritorio/expressproject/node_modules/http-errors
+278 info preinstall http-errors@1.6.3
+279 verbose linkStuff [ false,
+279 verbose linkStuff   false,
+279 verbose linkStuff   false,
+279 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules' ]
+280 info linkStuff http-errors@1.6.3
+281 verbose linkBins http-errors@1.6.3
+282 verbose linkMans http-errors@1.6.3
+283 verbose rebuildBundles http-errors@1.6.3
+284 verbose rebuildBundles [ 'depd', 'inherits', 'setprototypeof', 'statuses' ]
+285 info install http-errors@1.6.3
+286 info postinstall http-errors@1.6.3
+287 info build /home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/depd
+288 info preinstall depd@1.1.2
+289 verbose linkStuff [ false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules' ]
+290 info linkStuff depd@1.1.2
+291 verbose linkBins depd@1.1.2
+292 verbose linkMans depd@1.1.2
+293 verbose rebuildBundles depd@1.1.2
+294 info install depd@1.1.2
+295 info postinstall depd@1.1.2
+296 info build /home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/inherits
+297 info preinstall inherits@2.0.3
+298 verbose linkStuff [ false,
+298 verbose linkStuff   false,
+298 verbose linkStuff   false,
+298 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules' ]
+299 info linkStuff inherits@2.0.3
+300 verbose linkBins inherits@2.0.3
+301 verbose linkMans inherits@2.0.3
+302 verbose rebuildBundles inherits@2.0.3
+303 info install inherits@2.0.3
+304 info postinstall inherits@2.0.3
+305 info build /home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/setprototypeof
+306 info preinstall setprototypeof@1.1.0
+307 verbose linkStuff [ false,
+307 verbose linkStuff   false,
+307 verbose linkStuff   false,
+307 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules' ]
+308 info linkStuff setprototypeof@1.1.0
+309 verbose linkBins setprototypeof@1.1.0
+310 verbose linkMans setprototypeof@1.1.0
+311 verbose rebuildBundles setprototypeof@1.1.0
+312 info install setprototypeof@1.1.0
+313 info postinstall setprototypeof@1.1.0
+314 info build /home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules/statuses
+315 info preinstall statuses@1.5.0
+316 verbose linkStuff [ false,
+316 verbose linkStuff   false,
+316 verbose linkStuff   false,
+316 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/http-errors/node_modules' ]
+317 info linkStuff statuses@1.5.0
+318 verbose linkBins statuses@1.5.0
+319 verbose linkMans statuses@1.5.0
+320 verbose rebuildBundles statuses@1.5.0
+321 info install statuses@1.5.0
+322 info postinstall statuses@1.5.0
+323 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/iconv-lite
+324 info preinstall iconv-lite@0.4.23
+325 verbose linkStuff [ false,
+325 verbose linkStuff   false,
+325 verbose linkStuff   false,
+325 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules' ]
+326 info linkStuff iconv-lite@0.4.23
+327 verbose linkBins iconv-lite@0.4.23
+328 verbose linkMans iconv-lite@0.4.23
+329 verbose rebuildBundles iconv-lite@0.4.23
+330 verbose rebuildBundles [ 'safer-buffer' ]
+331 info install iconv-lite@0.4.23
+332 info postinstall iconv-lite@0.4.23
+333 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/iconv-lite/node_modules/safer-buffer
+334 info preinstall safer-buffer@2.1.2
+335 verbose linkStuff [ false,
+335 verbose linkStuff   false,
+335 verbose linkStuff   false,
+335 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/iconv-lite/node_modules' ]
+336 info linkStuff safer-buffer@2.1.2
+337 verbose linkBins safer-buffer@2.1.2
+338 verbose linkMans safer-buffer@2.1.2
+339 verbose rebuildBundles safer-buffer@2.1.2
+340 info install safer-buffer@2.1.2
+341 info postinstall safer-buffer@2.1.2
+342 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/on-finished
+343 info preinstall on-finished@2.3.0
+344 verbose linkStuff [ false,
+344 verbose linkStuff   false,
+344 verbose linkStuff   false,
+344 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+345 info linkStuff on-finished@2.3.0
+346 verbose linkBins on-finished@2.3.0
+347 verbose linkMans on-finished@2.3.0
+348 verbose rebuildBundles on-finished@2.3.0
+349 verbose rebuildBundles [ 'ee-first' ]
+350 info install on-finished@2.3.0
+351 info postinstall on-finished@2.3.0
+352 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/on-finished/node_modules/ee-first
+353 info preinstall ee-first@1.1.1
+354 verbose linkStuff [ false,
+354 verbose linkStuff   false,
+354 verbose linkStuff   false,
+354 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/on-finished/node_modules' ]
+355 info linkStuff ee-first@1.1.1
+356 verbose linkBins ee-first@1.1.1
+357 verbose linkMans ee-first@1.1.1
+358 verbose rebuildBundles ee-first@1.1.1
+359 info install ee-first@1.1.1
+360 info postinstall ee-first@1.1.1
+361 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/qs
+362 info preinstall qs@6.5.2
+363 verbose linkStuff [ false,
+363 verbose linkStuff   false,
+363 verbose linkStuff   false,
+363 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+364 info linkStuff qs@6.5.2
+365 verbose linkBins qs@6.5.2
+366 verbose linkMans qs@6.5.2
+367 verbose rebuildBundles qs@6.5.2
+368 info install qs@6.5.2
+369 info postinstall qs@6.5.2
+370 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/raw-body
+371 info preinstall raw-body@2.3.3
+372 verbose linkStuff [ false,
+372 verbose linkStuff   false,
+372 verbose linkStuff   false,
+372 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules' ]
+373 info linkStuff raw-body@2.3.3
+374 verbose linkBins raw-body@2.3.3
+375 verbose linkMans raw-body@2.3.3
+376 verbose rebuildBundles raw-body@2.3.3
+377 verbose rebuildBundles [ 'unpipe' ]
+378 info install raw-body@2.3.3
+379 info postinstall raw-body@2.3.3
+380 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+381 info preinstall unpipe@1.0.0
+382 verbose linkStuff [ false,
+382 verbose linkStuff   false,
+382 verbose linkStuff   false,
+382 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/body-parser/node_modules/raw-body/node_modules' ]
+383 info linkStuff unpipe@1.0.0
+384 verbose linkBins unpipe@1.0.0
+385 verbose linkMans unpipe@1.0.0
+386 verbose rebuildBundles unpipe@1.0.0
+387 info install unpipe@1.0.0
+388 info postinstall unpipe@1.0.0
+389 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is
+390 info preinstall type-is@1.6.16
+391 verbose linkStuff [ false,
+391 verbose linkStuff   false,
+391 verbose linkStuff   false,
+391 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+392 info linkStuff type-is@1.6.16
+393 verbose linkBins type-is@1.6.16
+394 verbose linkMans type-is@1.6.16
+395 verbose rebuildBundles type-is@1.6.16
+396 verbose rebuildBundles [ 'media-typer', 'mime-types' ]
+397 info install type-is@1.6.16
+398 info postinstall type-is@1.6.16
+399 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/media-typer
+400 info preinstall media-typer@0.3.0
+401 verbose linkStuff [ false,
+401 verbose linkStuff   false,
+401 verbose linkStuff   false,
+401 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules' ]
+402 info linkStuff media-typer@0.3.0
+403 verbose linkBins media-typer@0.3.0
+404 verbose linkMans media-typer@0.3.0
+405 verbose rebuildBundles media-typer@0.3.0
+406 info install media-typer@0.3.0
+407 info postinstall media-typer@0.3.0
+408 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/mime-types
+409 info preinstall mime-types@2.1.21
+410 verbose linkStuff [ false,
+410 verbose linkStuff   false,
+410 verbose linkStuff   false,
+410 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules' ]
+411 info linkStuff mime-types@2.1.21
+412 verbose linkBins mime-types@2.1.21
+413 verbose linkMans mime-types@2.1.21
+414 verbose rebuildBundles mime-types@2.1.21
+415 verbose rebuildBundles [ 'mime-db' ]
+416 info install mime-types@2.1.21
+417 info postinstall mime-types@2.1.21
+418 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+419 info preinstall mime-db@1.37.0
+420 verbose linkStuff [ false,
+420 verbose linkStuff   false,
+420 verbose linkStuff   false,
+420 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules' ]
+421 info linkStuff mime-db@1.37.0
+422 verbose linkBins mime-db@1.37.0
+423 verbose linkMans mime-db@1.37.0
+424 verbose rebuildBundles mime-db@1.37.0
+425 info install mime-db@1.37.0
+426 info postinstall mime-db@1.37.0
+427 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/content-disposition
+428 info preinstall content-disposition@0.5.2
+429 verbose linkStuff [ false,
+429 verbose linkStuff   false,
+429 verbose linkStuff   false,
+429 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+430 info linkStuff content-disposition@0.5.2
+431 verbose linkBins content-disposition@0.5.2
+432 verbose linkMans content-disposition@0.5.2
+433 verbose rebuildBundles content-disposition@0.5.2
+434 info install content-disposition@0.5.2
+435 info postinstall content-disposition@0.5.2
+436 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/cookie
+437 info preinstall cookie@0.3.1
+438 verbose linkStuff [ false,
+438 verbose linkStuff   false,
+438 verbose linkStuff   false,
+438 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+439 info linkStuff cookie@0.3.1
+440 verbose linkBins cookie@0.3.1
+441 verbose linkMans cookie@0.3.1
+442 verbose rebuildBundles cookie@0.3.1
+443 info install cookie@0.3.1
+444 info postinstall cookie@0.3.1
+445 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/cookie-signature
+446 info preinstall cookie-signature@1.0.6
+447 verbose linkStuff [ false,
+447 verbose linkStuff   false,
+447 verbose linkStuff   false,
+447 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+448 info linkStuff cookie-signature@1.0.6
+449 verbose linkBins cookie-signature@1.0.6
+450 verbose linkMans cookie-signature@1.0.6
+451 verbose rebuildBundles cookie-signature@1.0.6
+452 info install cookie-signature@1.0.6
+453 info postinstall cookie-signature@1.0.6
+454 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/encodeurl
+455 info preinstall encodeurl@1.0.2
+456 verbose linkStuff [ false,
+456 verbose linkStuff   false,
+456 verbose linkStuff   false,
+456 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+457 info linkStuff encodeurl@1.0.2
+458 verbose linkBins encodeurl@1.0.2
+459 verbose linkMans encodeurl@1.0.2
+460 verbose rebuildBundles encodeurl@1.0.2
+461 info install encodeurl@1.0.2
+462 info postinstall encodeurl@1.0.2
+463 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/escape-html
+464 info preinstall escape-html@1.0.3
+465 verbose linkStuff [ false,
+465 verbose linkStuff   false,
+465 verbose linkStuff   false,
+465 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+466 info linkStuff escape-html@1.0.3
+467 verbose linkBins escape-html@1.0.3
+468 verbose linkMans escape-html@1.0.3
+469 verbose rebuildBundles escape-html@1.0.3
+470 info install escape-html@1.0.3
+471 info postinstall escape-html@1.0.3
+472 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/etag
+473 info preinstall etag@1.8.1
+474 verbose linkStuff [ false,
+474 verbose linkStuff   false,
+474 verbose linkStuff   false,
+474 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+475 info linkStuff etag@1.8.1
+476 verbose linkBins etag@1.8.1
+477 verbose linkMans etag@1.8.1
+478 verbose rebuildBundles etag@1.8.1
+479 info install etag@1.8.1
+480 info postinstall etag@1.8.1
+481 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/finalhandler
+482 info preinstall finalhandler@1.1.1
+483 verbose linkStuff [ false,
+483 verbose linkStuff   false,
+483 verbose linkStuff   false,
+483 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+484 info linkStuff finalhandler@1.1.1
+485 verbose linkBins finalhandler@1.1.1
+486 verbose linkMans finalhandler@1.1.1
+487 verbose rebuildBundles finalhandler@1.1.1
+488 verbose rebuildBundles [ 'unpipe' ]
+489 info install finalhandler@1.1.1
+490 info postinstall finalhandler@1.1.1
+491 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/parseurl
+492 info preinstall parseurl@1.3.2
+493 verbose linkStuff [ false,
+493 verbose linkStuff   false,
+493 verbose linkStuff   false,
+493 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+494 info linkStuff parseurl@1.3.2
+495 verbose linkBins parseurl@1.3.2
+496 verbose linkMans parseurl@1.3.2
+497 verbose rebuildBundles parseurl@1.3.2
+498 info install parseurl@1.3.2
+499 info postinstall parseurl@1.3.2
+500 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/statuses
+501 info preinstall statuses@1.4.0
+502 verbose linkStuff [ false,
+502 verbose linkStuff   false,
+502 verbose linkStuff   false,
+502 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+503 info linkStuff statuses@1.4.0
+504 verbose linkBins statuses@1.4.0
+505 verbose linkMans statuses@1.4.0
+506 verbose rebuildBundles statuses@1.4.0
+507 info install statuses@1.4.0
+508 info postinstall statuses@1.4.0
+509 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/finalhandler/node_modules/unpipe
+510 info preinstall unpipe@1.0.0
+511 verbose linkStuff [ false,
+511 verbose linkStuff   false,
+511 verbose linkStuff   false,
+511 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/finalhandler/node_modules' ]
+512 info linkStuff unpipe@1.0.0
+513 verbose linkBins unpipe@1.0.0
+514 verbose linkMans unpipe@1.0.0
+515 verbose rebuildBundles unpipe@1.0.0
+516 info install unpipe@1.0.0
+517 info postinstall unpipe@1.0.0
+518 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/fresh
+519 info preinstall fresh@0.5.2
+520 verbose linkStuff [ false,
+520 verbose linkStuff   false,
+520 verbose linkStuff   false,
+520 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+521 info linkStuff fresh@0.5.2
+522 verbose linkBins fresh@0.5.2
+523 verbose linkMans fresh@0.5.2
+524 verbose rebuildBundles fresh@0.5.2
+525 info install fresh@0.5.2
+526 info postinstall fresh@0.5.2
+527 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/merge-descriptors
+528 info preinstall merge-descriptors@1.0.1
+529 verbose linkStuff [ false,
+529 verbose linkStuff   false,
+529 verbose linkStuff   false,
+529 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+530 info linkStuff merge-descriptors@1.0.1
+531 verbose linkBins merge-descriptors@1.0.1
+532 verbose linkMans merge-descriptors@1.0.1
+533 verbose rebuildBundles merge-descriptors@1.0.1
+534 info install merge-descriptors@1.0.1
+535 info postinstall merge-descriptors@1.0.1
+536 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/methods
+537 info preinstall methods@1.1.2
+538 verbose linkStuff [ false,
+538 verbose linkStuff   false,
+538 verbose linkStuff   false,
+538 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+539 info linkStuff methods@1.1.2
+540 verbose linkBins methods@1.1.2
+541 verbose linkMans methods@1.1.2
+542 verbose rebuildBundles methods@1.1.2
+543 info install methods@1.1.2
+544 info postinstall methods@1.1.2
+545 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/path-to-regexp
+546 info preinstall path-to-regexp@0.1.7
+547 verbose linkStuff [ false,
+547 verbose linkStuff   false,
+547 verbose linkStuff   false,
+547 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+548 info linkStuff path-to-regexp@0.1.7
+549 verbose linkBins path-to-regexp@0.1.7
+550 verbose linkMans path-to-regexp@0.1.7
+551 verbose rebuildBundles path-to-regexp@0.1.7
+552 info install path-to-regexp@0.1.7
+553 info postinstall path-to-regexp@0.1.7
+554 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr
+555 info preinstall proxy-addr@2.0.4
+556 verbose linkStuff [ false,
+556 verbose linkStuff   false,
+556 verbose linkStuff   false,
+556 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+557 info linkStuff proxy-addr@2.0.4
+558 verbose linkBins proxy-addr@2.0.4
+559 verbose linkMans proxy-addr@2.0.4
+560 verbose rebuildBundles proxy-addr@2.0.4
+561 verbose rebuildBundles [ 'forwarded', 'ipaddr.js' ]
+562 info install proxy-addr@2.0.4
+563 info postinstall proxy-addr@2.0.4
+564 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr/node_modules/forwarded
+565 info preinstall forwarded@0.1.2
+566 verbose linkStuff [ false,
+566 verbose linkStuff   false,
+566 verbose linkStuff   false,
+566 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr/node_modules' ]
+567 info linkStuff forwarded@0.1.2
+568 verbose linkBins forwarded@0.1.2
+569 verbose linkMans forwarded@0.1.2
+570 verbose rebuildBundles forwarded@0.1.2
+571 info install forwarded@0.1.2
+572 info postinstall forwarded@0.1.2
+573 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js
+574 info preinstall ipaddr.js@1.8.0
+575 verbose linkStuff [ false,
+575 verbose linkStuff   false,
+575 verbose linkStuff   false,
+575 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/proxy-addr/node_modules' ]
+576 info linkStuff ipaddr.js@1.8.0
+577 verbose linkBins ipaddr.js@1.8.0
+578 verbose linkMans ipaddr.js@1.8.0
+579 verbose rebuildBundles ipaddr.js@1.8.0
+580 info install ipaddr.js@1.8.0
+581 info postinstall ipaddr.js@1.8.0
+582 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/range-parser
+583 info preinstall range-parser@1.2.0
+584 verbose linkStuff [ false,
+584 verbose linkStuff   false,
+584 verbose linkStuff   false,
+584 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+585 info linkStuff range-parser@1.2.0
+586 verbose linkBins range-parser@1.2.0
+587 verbose linkMans range-parser@1.2.0
+588 verbose rebuildBundles range-parser@1.2.0
+589 info install range-parser@1.2.0
+590 info postinstall range-parser@1.2.0
+591 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/safe-buffer
+592 info preinstall safe-buffer@5.1.2
+593 verbose linkStuff [ false,
+593 verbose linkStuff   false,
+593 verbose linkStuff   false,
+593 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+594 info linkStuff safe-buffer@5.1.2
+595 verbose linkBins safe-buffer@5.1.2
+596 verbose linkMans safe-buffer@5.1.2
+597 verbose rebuildBundles safe-buffer@5.1.2
+598 info install safe-buffer@5.1.2
+599 info postinstall safe-buffer@5.1.2
+600 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send
+601 info preinstall send@0.16.2
+602 verbose linkStuff [ false,
+602 verbose linkStuff   false,
+602 verbose linkStuff   false,
+602 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+603 info linkStuff send@0.16.2
+604 verbose linkBins send@0.16.2
+605 verbose linkMans send@0.16.2
+606 verbose rebuildBundles send@0.16.2
+607 verbose rebuildBundles [ '.bin', 'destroy', 'mime', 'ms' ]
+608 info install send@0.16.2
+609 info postinstall send@0.16.2
+610 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/destroy
+611 info preinstall destroy@1.0.4
+612 verbose linkStuff [ false,
+612 verbose linkStuff   false,
+612 verbose linkStuff   false,
+612 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules' ]
+613 info linkStuff destroy@1.0.4
+614 verbose linkBins destroy@1.0.4
+615 verbose linkMans destroy@1.0.4
+616 verbose rebuildBundles destroy@1.0.4
+617 info install destroy@1.0.4
+618 info postinstall destroy@1.0.4
+619 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/mime
+620 info preinstall mime@1.4.1
+621 verbose linkStuff [ false,
+621 verbose linkStuff   false,
+621 verbose linkStuff   false,
+621 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules' ]
+622 info linkStuff mime@1.4.1
+623 verbose linkBins mime@1.4.1
+624 verbose link bins [ { mime: 'cli.js' },
+624 verbose link bins   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/.bin',
+624 verbose link bins   false ]
+625 verbose linkMans mime@1.4.1
+626 verbose rebuildBundles mime@1.4.1
+627 info install mime@1.4.1
+628 info postinstall mime@1.4.1
+629 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules/ms
+630 info preinstall ms@2.0.0
+631 verbose linkStuff [ false,
+631 verbose linkStuff   false,
+631 verbose linkStuff   false,
+631 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules/send/node_modules' ]
+632 info linkStuff ms@2.0.0
+633 verbose linkBins ms@2.0.0
+634 verbose linkMans ms@2.0.0
+635 verbose rebuildBundles ms@2.0.0
+636 info install ms@2.0.0
+637 info postinstall ms@2.0.0
+638 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/serve-static
+639 info preinstall serve-static@1.13.2
+640 verbose linkStuff [ false,
+640 verbose linkStuff   false,
+640 verbose linkStuff   false,
+640 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+641 info linkStuff serve-static@1.13.2
+642 verbose linkBins serve-static@1.13.2
+643 verbose linkMans serve-static@1.13.2
+644 verbose rebuildBundles serve-static@1.13.2
+645 info install serve-static@1.13.2
+646 info postinstall serve-static@1.13.2
+647 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/setprototypeof
+648 info preinstall setprototypeof@1.1.0
+649 verbose linkStuff [ false,
+649 verbose linkStuff   false,
+649 verbose linkStuff   false,
+649 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+650 info linkStuff setprototypeof@1.1.0
+651 verbose linkBins setprototypeof@1.1.0
+652 verbose linkMans setprototypeof@1.1.0
+653 verbose rebuildBundles setprototypeof@1.1.0
+654 info install setprototypeof@1.1.0
+655 info postinstall setprototypeof@1.1.0
+656 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/utils-merge
+657 info preinstall utils-merge@1.0.1
+658 verbose linkStuff [ false,
+658 verbose linkStuff   false,
+658 verbose linkStuff   false,
+658 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+659 info linkStuff utils-merge@1.0.1
+660 verbose linkBins utils-merge@1.0.1
+661 verbose linkMans utils-merge@1.0.1
+662 verbose rebuildBundles utils-merge@1.0.1
+663 info install utils-merge@1.0.1
+664 info postinstall utils-merge@1.0.1
+665 info build /home/jerson/Escritorio/expressproject/node_modules/express/node_modules/vary
+666 info preinstall vary@1.1.2
+667 verbose linkStuff [ false,
+667 verbose linkStuff   false,
+667 verbose linkStuff   false,
+667 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express/node_modules' ]
+668 info linkStuff vary@1.1.2
+669 verbose linkBins vary@1.1.2
+670 verbose linkMans vary@1.1.2
+671 verbose rebuildBundles vary@1.1.2
+672 info install vary@1.1.2
+673 info postinstall vary@1.1.2
+674 info build /home/jerson/Escritorio/expressproject/node_modules/express-ws
+675 info preinstall express-ws@4.0.0
+676 verbose linkStuff [ false,
+676 verbose linkStuff   false,
+676 verbose linkStuff   false,
+676 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules' ]
+677 info linkStuff express-ws@4.0.0
+678 verbose linkBins express-ws@4.0.0
+679 verbose linkMans express-ws@4.0.0
+680 verbose rebuildBundles express-ws@4.0.0
+681 verbose rebuildBundles [ 'ws' ]
+682 info install express-ws@4.0.0
+683 info postinstall express-ws@4.0.0
+684 info build /home/jerson/Escritorio/expressproject/node_modules/express-ws/node_modules/ws
+685 info preinstall ws@5.2.2
+686 verbose linkStuff [ false,
+686 verbose linkStuff   false,
+686 verbose linkStuff   false,
+686 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express-ws/node_modules' ]
+687 info linkStuff ws@5.2.2
+688 verbose linkBins ws@5.2.2
+689 verbose linkMans ws@5.2.2
+690 verbose rebuildBundles ws@5.2.2
+691 verbose rebuildBundles [ 'async-limiter' ]
+692 info install ws@5.2.2
+693 info postinstall ws@5.2.2
+694 info build /home/jerson/Escritorio/expressproject/node_modules/express-ws/node_modules/ws/node_modules/async-limiter
+695 info preinstall async-limiter@1.0.0
+696 verbose linkStuff [ false,
+696 verbose linkStuff   false,
+696 verbose linkStuff   false,
+696 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules/express-ws/node_modules/ws/node_modules' ]
+697 info linkStuff async-limiter@1.0.0
+698 verbose linkBins async-limiter@1.0.0
+699 verbose linkMans async-limiter@1.0.0
+700 verbose rebuildBundles async-limiter@1.0.0
+701 info install async-limiter@1.0.0
+702 info postinstall async-limiter@1.0.0
+703 info build /home/jerson/Escritorio/expressproject/node_modules/jade
+704 info preinstall jade@1.11.0
+705 verbose linkStuff [ false,
+705 verbose linkStuff   false,
+705 verbose linkStuff   false,
+705 verbose linkStuff   '/home/jerson/Escritorio/expressproject/node_modules' ]
+706 info linkStuff jade@1.11.0
+707 verbose linkBins jade@1.11.0
+708 verbose link bins [ { jade: './bin/jade.js' },
+708 verbose link bins   '/home/jerson/Escritorio/expressproject/node_modules/.bin',
+708 verbose link bins   false ]
+709 verbose linkMans jade@1.11.0
+710 verbose rebuildBundles jade@1.11.0
+711 verbose rebuildBundles [ '.bin',
+711 verbose rebuildBundles   'character-parser',
+711 verbose rebuildBundles   'clean-css',
+711 verbose rebuildBundles   'commander',
+711 verbose rebuildBundles   'constantinople',
+711 verbose rebuildBundles   'jstransformer',
+711 verbose rebuildBundles   'mkdirp',
+711 verbose rebuildBundles   'transformers',
+711 verbose rebuildBundles   'uglify-js',
+711 verbose rebuildBundles   'void-elements',
+711 verbose rebuildBundles   'with' ]
+712 error Error: EACCES, unlink '/home/jerson/Escritorio/expressproject/node_modules/.bin/jade'
+712 error  { [Error: EACCES, unlink '/home/jerson/Escritorio/expressproject/node_modules/.bin/jade']
+712 error   errno: 3,
+712 error   code: 'EACCES',
+712 error   path: '/home/jerson/Escritorio/expressproject/node_modules/.bin/jade' }
+713 error Please try running this command again as root/Administrator.
+714 error System Linux 4.15.0-43-generic
+715 error command "/usr/local/bin/node" "/usr/local/bin/npm" "rebuild"
+716 error cwd /home/jerson/Escritorio/expressproject
+717 error node -v v0.10.32
+718 error npm -v 1.4.28
+719 error path /home/jerson/Escritorio/expressproject/node_modules/.bin/jade
+720 error code EACCES
+721 error errno 3
+722 error stack Error: EACCES, unlink '/home/jerson/Escritorio/expressproject/node_modules/.bin/jade'
+723 verbose exit [ 3, true ]
