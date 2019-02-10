@@ -2,8 +2,6 @@ var express = require('express');
 var router = express.Router();
 var app = express();
 
-
-
 /*
 var WebSocketServer = require('websocket').server;
 var http = require('http');
@@ -213,9 +211,79 @@ console.log('Server listening on ' + HOST +':'+ PORT);
 
 /* GET home page. */
 router.get('/index', function(req, res, next) {
-  res.render('index', { title: 'MiniTwitter' });
+  res.render('index', { title: 'MiniTwitter', require : require });
   console.log("Inicio");
 });
 
+router.get('/kks', function(req,res) {
+//res.render('index', { title : 'COSA', require : require});
+	
+	db.collection('TWITS').find().sort({$natural : -1}).limit(5).toArray(function(err, result) {
+		      if (err) { throw err; }
+		      else{
+			    //console.log(result);
+			    //res.statusCode = 200;
+				//res.setHeader('Content-Type', 'text/plain');
+    			res.setHeader('Content-Type', 'application/json');
+				res.send(JSON.stringify(result));
+		      }
+		    });
+/*
+	var MongoClient = require('mongodb').MongoClient;
+  	MongoClient.connect("mongodb://localhost:27017", {useNewUrlParser : true},function(err, database) { 
+		    if(err) throw err;
+		    db = database.db('twitter');
+		    db.collection('TWITS').find().sort({$natural : -1}).limit(5).toArray(function(err, result) {
+		      if (err) { throw err; }
+		      else{
+			    //console.log(result);
+			    //res.statusCode = 200;
+				//res.setHeader('Content-Type', 'text/plain');
+    			res.setHeader('Content-Type', 'application/json');
+				res.send(JSON.stringify(result));
+		      }
+		    });
+		}
+   );
+  	*/
+});
+
+router.get('/totales1', function(req,res){
+	db.collection('TWITS').find().count(function(e,count){
+		if(e){ throw e;}
+		else{
+			//console.log("VAMOS PARA TOTAL DE TWITS" + count);
+			res.setHeader('Content-Type', 'application/json');
+			res.send(JSON.stringify({total_twits:count}));
+		}
+	});
+});
+
+
+router.get('/totales2', function(req,res){
+	db.collection('TWITS').distinct('alias_usuario',function(err,docs){
+		if(err){  console.log("error 2");throw err;}
+		else{
+			//console.log("VAMOS PARA TOTAL DE usuarios" + docs.length);
+			res.setHeader('Content-Type', 'application/json');
+			res.send(JSON.stringify({total_usuarios:docs.length}));
+		}
+
+	});
+});
+
+
+router.get('/totales3', function(req,res){
+
+	db.collection('TWITS').distinct('categoria_mensaje',function(err,docs){
+		if(err){  console.log("error 3");throw err;}
+		else{
+			//console.log("VAMOS PARA TOTAL DE usuarios" + docs.length);
+			res.setHeader('Content-Type', 'application/json');
+			res.send(JSON.stringify({total_categorias:docs.length}));
+		}
+
+	});
+});
 
 module.exports = router;

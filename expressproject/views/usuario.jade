@@ -1,0 +1,121 @@
+extends layout
+block content
+ style.
+  body{
+   background-color: black;
+  }
+  #div0{
+   width : 35%;
+   height : 150px;
+   float: left;
+   background-color:gray;
+   border-radius:10px;
+  }
+  #divm{
+   width : 10%;
+   height : 200px;
+   float: left;
+  }
+  #div1{
+   width : 50%;
+   height : 200px;
+   float: left;
+   border-radius:5px;
+  }
+  #d11{
+   width : 50%;
+   height : 150px;
+   float: left;
+   padding-top:8px;
+  }
+  #d12{
+   width : 50%;
+   height : 150px;
+   float: left;
+   padding-top:8px;
+  }
+ h1(style="color:white;") MiniTWITTER
+ p(style="color:#2EFEF7;") Welcome to MiniTwitter
+ button(id="btn_regreso") <-
+ hr
+ h2(style="color:white;") USUARIO
+ h3(style="color:white; float:left; width: 45%;") Información de categoria 
+ h3(style="color:white; float:left; width: 50%;") Ultimos 3 twits 
+ div(id="div0")
+  div(id="d11")
+   h4(style="color:white; padding-left:25px;") Alias
+   h4(style="color:white; padding-left:25px;") Nombre
+   h4(style="color:white; padding-left:25px;") Tweets
+  div(id="d12")
+   h4(style="color:white; padding-left:25px;" id="h_alias") #{usuario}
+   h4(style="color:white; padding-left:25px;" id="h_nombre") No Disponible
+   h4(style="color:white; padding-left:25px;" id="h_twits") No Disponible
+ div(id="divm")
+ div(id="div1")
+ script.
+  $(document).ready(function(){
+    console.log("Hemos iniciado");
+    recibir();
+
+    $("#btn_regreso").click(function(){
+      window.location = "http://127.0.0.1:3000/index";
+    });
+
+   }
+  );
+
+  setInterval(function(){
+   console.log("funciona"); 
+   $("#my_tabla").remove(); 
+   recibir(); 
+  },5000);
+
+  function recibir(){
+
+   var c_general = "#{usuario}";
+   console.log("probando:" + c_general);
+
+   $.ajax({
+    type: "GET",
+    url: "http://127.0.0.1:3000/us_cantidad",
+    typeData : "jsonp",
+    data : { usuario : c_general }
+    }).done(function(res){
+     var valor = res['tamanio'];
+     $('#h_twits').text(valor);
+    });
+
+    $.ajax({
+    type: "GET",
+    url: "http://127.0.0.1:3000/us_usuario",
+    typeData : "jsonp",
+    data : { usuario : c_general }
+    }).done(function(res){
+     var valor = res['alias'];
+     $('#h_nombre').text(valor);
+    });
+
+
+
+   $.ajax({
+    type: "GET",
+    url: "http://127.0.0.1:3000/us_twits",
+    typeData : "jsonp",
+    data : { usuario : c_general }
+    }).done(function(res){
+
+      $("#my_tabla").remove();
+
+      var tbl = $("<table/>").attr("id","my_tabla").attr("style","display:none;border: 1px solid blue; border-radius:10px;");
+      $("#div1").append(tbl);
+
+      for(var i = 0; i < res.length; i++){
+       var tr = "<tr style=\"background-color: white;\" height = \"10\">";
+       var td1 = "<td style=\" padding: 5px;\"  height = \"10\">" + res[i]["nombre_usuario"] + "- @" + res[i]["alias_usuario"] + "</td>";
+       var td2 = "<td style=\" padding: 5px;\"  height = \"10\">" + res[i]["txt_mensaje"] + "</td></tr>";
+       $("#my_tabla").append(tr + td1 + td2);
+      }
+
+       $("#my_tabla").toggle("slow");
+   });
+  }

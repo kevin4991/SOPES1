@@ -1,0 +1,96 @@
+extends layout
+block content
+ style.
+  body{
+   background-color: black;
+  }
+  #div0{
+   width : 30%;
+   height : 75px;
+   float: left;
+   background-color:gray;
+   border-radius:10px;
+  }
+  #divm{
+   width : 10%;
+   height : 200px;
+   float: left;
+  }
+  #div1{
+   width : 50%;
+   height : 200px;
+   float: left;
+  }
+  #my_tabla, td{
+   background-color : #CEF6F5;
+   border-bottom : 1px solid gray;
+   border-top : 10px solid #CEF6F5;
+  }
+ h1(style="color:white;") MiniTWITTER
+ p(style="color:#2EFEF7;") Welcome to MiniTwitter
+ button(id="btn_regreso") <-
+ hr
+ h1(style="color:white;") Categoria
+ h3(style="color:white; float:left; width: 50%;") Información de categoria 
+ h3(style="color:white; float:left; width: 50%;") Ultimos 3 twits 
+ div(id="div0")
+  h5(style="color:white; padding-left:25px;") CANTIDAD DE TWITTS
+  h2(style="color:skyblue; padding-left:40px; margin: -18px 130px 25px;" id="h_cantidad") .. No disponible ..
+ div(id="divm")
+ div(id="div1")
+
+ script(type='text/javascript').
+  $(document).ready(function(){
+    console.log("Hemos iniciado");
+    recibir();
+
+    $("#btn_regreso").click(function(){
+      window.location = "http://127.0.0.1:3000/index";
+    });
+   }
+  );
+
+  setInterval(function(){
+   $("#my_tabla").remove();
+   recibir(); 
+  },5000);
+
+  function recibir(){
+   console.log("funciona"); 
+   var c_general = "#{categoria}";
+   
+   $.ajax({
+    type: "GET",
+    url: "http://127.0.0.1:3000/cats_tamanio",
+    typeData : "jsonp",
+    data : { categoria : c_general }
+    }).done(function(res){
+     var valor = res['tamanio'];
+     $('#h_cantidad').text(valor);
+    });
+
+   $.ajax({
+    type: "GET",
+    url: "http://127.0.0.1:3000/cats_user",
+    typeData : "jsonp",
+    data : { categoria : c_general }
+    }).done(function(res){
+
+      $("#my_tabla").remove();
+      console.log(res.length);
+
+      var tbl = $("<table/>").attr("id","my_tabla").attr("style","display:none;border: 1px solid blue; border-radius:10px;");
+      $("#div1").append(tbl);
+
+      for(var i = 0; i < res.length; i++){
+       var tr = "<tr style=\"background-color: white;\" height = \"10\">";
+       var td1 = "<td style=\" padding: 5px;\"  height = \"10\">" + res[i]["nombre_usuario"] + "- @" + res[i]["alias_usuario"] + "</td>";
+       var td2 = "<td style=\" padding: 5px;\"  height = \"10\">" + res[i]["txt_mensaje"] + "</td></tr>";
+       $("#my_tabla").append(tr + td1 + td2);
+      }
+
+       $("#my_tabla").toggle("slow");
+   });
+  }
+
+

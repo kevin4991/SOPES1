@@ -1,7 +1,149 @@
 extends layout
-
 block content
-  h1= title
-  p Welcome to #{title}
+ style.
+  body{
+   background-color: #1C1C1C;
+  }
+  #div1{
+   width : 40%;
+   height : 200px;
+   float: left;
+  }
+  #div3{
+   float: left;
+   width : 10%;
+   height: 200px;
+  }
+  #div4{
+   width : 10%;
+   height: 200px;
+  }
+  #div2{
+   width : 40%;
+   height: 200px;
+   background-color: gray;
+   float: left;
+   border-radius:10px;
+  }
+  #my_tabla, td{
+   background-color : #CEF6F5;
+   border-bottom : 1px solid gray;
+   border-top : 10px solid #CEF6F5;
+  }
+  td.ColColor{
+   background-color : gray;
+  }
+ h1(style="color:white;")= title
+ p(style="color:#2EFEF7;") Welcome to #{title}
+ div
+  script(type='text/javascript').
+   console.log("INICIO DE LA PAGINA");
 
-  
+   $(document).ready(function(){
+    recibir();
+
+    $("#btn_categoria").click(function(){
+        var ct = $("#input_categoria").val();
+    	if(ct!=""){
+      window.location = "http://127.0.0.1:3000/a_cat" + "/" + ct;
+      }else{
+       alert("INGRESE UN VALOR DE CATEGORIA");
+      }
+    });
+
+    $("#btn_usuario").click(function(){
+    	var ustd = $("#input_usuario").val();
+      if(ustd != ""){
+       window.location = "http://127.0.0.1:3000/a_us" + "/" + ustd;
+      }else{
+       alert("INGRESE UN VALOR DE USUARIO");
+      }
+    });
+   });
+
+   setInterval(function(){
+    console.log("funciona"); 
+    $("#my_tabla").remove(); 
+    recibir(); 
+    },5000);
+
+   function recibir(){
+    console.log("salida");
+
+    $.ajax({
+     type : "GET",
+     url : "http://127.0.0.1:3000/totales1"
+    }).done(
+     function(res){
+     	$('#val2').text(res['total_twits']);
+       //$("#val2").toggle("slow");
+    });
+
+    $.ajax({
+     type : "GET",
+     url : "http://127.0.0.1:3000/totales2"
+    }).done(
+     function(res){
+     	$('#val1').text(res['total_usuarios']);
+       //$("#val1").toggle("slow");
+    });
+
+
+    $.ajax({
+     type : "GET",
+     url : "http://127.0.0.1:3000/totales3"
+    }).done(
+     function(res){
+       $('#val3').text(res['total_categorias']);
+       //$("#val3").toggle("slow");
+    });
+
+    $.ajax({
+    type: "GET",
+    url: "http://127.0.0.1:3000/kks"
+    }).done(
+     function(res){
+      //console.log(res);
+      $("#my_tabla").remove();
+      var tbl = $("<table/>").attr("id","my_tabla").attr("style","display:none;border: 1px solid blue; border-radius:10px;");
+      $("#div1").append(tbl);
+
+      for(var i = 0; i < res.length; i++){
+       var tr = "<tr style=\"background-color: yellow;\" height = \"10\">";
+       var td1 = "<td style=\" padding: 5px;\"  height = \"10\">" + res[i]["nombre_usuario"] + "- @" + res[i]["alias_usuario"] + "</td>";
+       var td2 = "<td style=\" padding: 5px;\"  height = \"10\">" + res[i]["txt_mensaje"] + "</td></tr>";
+       $("#my_tabla").append(tr + td1 + td2);
+      }
+
+       $("#my_tabla").toggle("slow");
+    });
+   }
+  button(onclick="recibir()") BOTON PARA ACTUALIZAR
+ div(id="div0" style="height:300px;")
+  div(id="div1")
+  div(id="div3")
+  div(id="div2")
+   h2(style="color:white; padding-left:10px;") INFORMACION DE RED SOCIAL
+   div(style="padding-left: 10px; color : #CEF6F5; ")
+    div(style="float:left;")
+     h5 TOTAL DE USUARIOS:
+     h5 TOTAL DE TWEETS:
+     h5 TOTAL DE CATEGORIAS:
+    div(style="float:left; width:20px; height:100px;")
+    div(style="float:left;")
+     h5(id="val1") cantidad no disponible
+     h5(id="val2") cantidad no disponible
+     h5(id="val3") cantidad no disponible
+  div(id="div4")
+ br
+ hr
+ h3(style="color:white;") CONSULTAS
+ div
+  div(style="float:left;")
+   input(placeholder="CATEGORIA" id="input_categoria")
+   br
+   input(placeholder="USUARIO" id="input_usuario")
+  div(style="float:left;")
+   button(id="btn_categoria") CONSULTAR CATEGORIA
+   br
+   button(id="btn_usuario") CONSULTAR USUARIO
