@@ -72,7 +72,7 @@ block content
 
     $.ajax({
      type : "GET",
-     url : "http://127.0.0.1:3000/totales1"
+     url : "http://localhost/totales1"
     }).done(
      function(res){
      	$('#val2').text(res['total_twits']);
@@ -81,7 +81,7 @@ block content
 
     $.ajax({
      type : "GET",
-     url : "http://127.0.0.1:3000/totales2"
+     url : "http://localhost/totales2"
     }).done(
      function(res){
      	$('#val1').text(res['total_usuarios']);
@@ -91,7 +91,7 @@ block content
 
     $.ajax({
      type : "GET",
-     url : "http://127.0.0.1:3000/totales3"
+     url : "http://localhost/totales3"
     }).done(
      function(res){
        $('#val3').text(res['total_categorias']);
@@ -100,7 +100,7 @@ block content
 
     $.ajax({
     type: "GET",
-    url: "http://127.0.0.1:3000/kks"
+    url: "http://localhost/kks"
     }).done(
      function(res){
       //console.log(res);
