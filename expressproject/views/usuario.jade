@@ -58,7 +58,7 @@ block content
     recibir();
 
     $("#btn_regreso").click(function(){
-      window.location = "http://127.0.0.1:3000/index";
+      window.location = "http://localhost/index";
     });
 
    }
@@ -77,7 +77,7 @@ block content
 
    $.ajax({
     type: "GET",
-    url: "http://127.0.0.1:3000/us_cantidad",
+    url: "http://localhost/us_cantidad",
     typeData : "jsonp",
     data : { usuario : c_general }
     }).done(function(res){
@@ -87,7 +87,7 @@ block content
 
     $.ajax({
     type: "GET",
-    url: "http://127.0.0.1:3000/us_usuario",
+    url: "http://localhost/us_usuario",
     typeData : "jsonp",
     data : { usuario : c_general }
     }).done(function(res){
@@ -99,7 +99,7 @@ block content
 
    $.ajax({
     type: "GET",
-    url: "http://127.0.0.1:3000/us_twits",
+    url: "http://localhost/us_twits",
     typeData : "jsonp",
     data : { usuario : c_general }
     }).done(function(res){

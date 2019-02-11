@@ -45,7 +45,7 @@ block content
     recibir();
 
     $("#btn_regreso").click(function(){
-      window.location = "http://127.0.0.1:3000/index";
+      window.location = "http://localhost/index";
     });
    }
   );
@@ -61,7 +61,7 @@ block content
    
    $.ajax({
     type: "GET",
-    url: "http://127.0.0.1:3000/cats_tamanio",
+    url: "http://localhost/cats_tamanio",
     typeData : "jsonp",
     data : { categoria : c_general }
     }).done(function(res){
@@ -71,7 +71,7 @@ block content
 
    $.ajax({
     type: "GET",
-    url: "http://127.0.0.1:3000/cats_user",
+    url: "http://localhost/cats_user",
     typeData : "jsonp",
     data : { categoria : c_general }
     }).done(function(res){
