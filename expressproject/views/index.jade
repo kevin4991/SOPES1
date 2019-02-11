@@ -45,7 +45,7 @@ block content
     $("#btn_categoria").click(function(){
         var ct = $("#input_categoria").val();
     	if(ct!=""){
-      window.location = "http://localhost/a_cat" + "/" + ct;
+      window.location = "http://192.168.122.217/a_cat" + "/" + ct;
       }else{
        alert("INGRESE UN VALOR DE CATEGORIA");
       }
@@ -54,7 +54,7 @@ block content
     $("#btn_usuario").click(function(){
     	var ustd = $("#input_usuario").val();
       if(ustd != ""){
-       window.location = "http://localhost/a_us" + "/" + ustd;
+       window.location = "http://192.168.122.217/a_us" + "/" + ustd;
       }else{
        alert("INGRESE UN VALOR DE USUARIO");
       }
@@ -72,7 +72,7 @@ block content
 
     $.ajax({
      type : "GET",
-     url : "http://localhost/totales1"
+     url : "http://192.168.122.217/totales1"
     }).done(
      function(res){
      	$('#val2').text(res['total_twits']);
@@ -81,7 +81,7 @@ block content
 
     $.ajax({
      type : "GET",
-     url : "http://localhost/totales2"
+     url : "http://192.168.122.217/totales2"
     }).done(
      function(res){
      	$('#val1').text(res['total_usuarios']);
@@ -91,7 +91,7 @@ block content
 
     $.ajax({
      type : "GET",
-     url : "http://localhost/totales3"
+     url : "http://192.168.122.217/totales3"
     }).done(
      function(res){
        $('#val3').text(res['total_categorias']);
@@ -100,7 +100,7 @@ block content
 
     $.ajax({
     type: "GET",
-    url: "http://localhost/kks"
+    url: "http://192.168.122.217/kks"
     }).done(
      function(res){
       //console.log(res);

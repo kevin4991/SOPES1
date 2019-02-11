@@ -58,7 +58,7 @@ block content
     recibir();
 
     $("#btn_regreso").click(function(){
-      window.location = "http://localhost/index";
+      window.location = "http://192.168.122.217/index";
     });
 
    }
@@ -77,7 +77,7 @@ block content
 
    $.ajax({
     type: "GET",
-    url: "http://localhost/us_cantidad",
+    url: "http://192.168.122.217/us_cantidad",
     typeData : "jsonp",
     data : { usuario : c_general }
     }).done(function(res){
@@ -87,7 +87,7 @@ block content
 
     $.ajax({
     type: "GET",
-    url: "http://localhost/us_usuario",
+    url: "http://192.168.122.217/us_usuario",
     typeData : "jsonp",
     data : { usuario : c_general }
     }).done(function(res){
@@ -99,7 +99,7 @@ block content
 
    $.ajax({
     type: "GET",
-    url: "http://localhost/us_twits",
+    url: "http://192.168.122.217/us_twits",
     typeData : "jsonp",
     data : { usuario : c_general }
     }).done(function(res){
