@@ -90,7 +90,7 @@ var MongoClient = require('mongodb').MongoClient;
 var db;
 
 
-MongoClient.connect("mongodb://localhost:27017", {useNewUrlParser : true},
+MongoClient.connect("mongodb://172.17.0.1:27017", {useNewUrlParser : true},
 	function(err, database) {
 		if(err) throw err;
 		db = database.db('twitter');
