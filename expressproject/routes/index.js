@@ -72,10 +72,12 @@ app.listen(5000);
 */
 
 var net = require('net');
+var ip = require('ip');
+console.log("DIRECCION EN LA QUE ESTOY EJECUTANDOME: " + ip.address());
 
 
 //var HOST = '127.0.0.1'; // parameterize the IP of the Listen
-var HOST = 'localhost'; // parameterize the IP of the Listen
+var HOST = ip.address(); // parameterize the IP of the Listen
 var PORT = 5000; // TCP LISTEN port
 
 //conexion con mongodb
