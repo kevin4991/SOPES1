@@ -147,6 +147,8 @@ net.createServer(function(sock) {
 	  					};
 
 	  	
+	  	console.log("--->INSERTANDO UN NUEVO REGISTRO DE TWITS!!!");
+
 		var coleccion = db.collection('TWITS');
 		coleccion.insertOne(registro);		
 
