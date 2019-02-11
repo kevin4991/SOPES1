@@ -9,6 +9,83 @@ var usersRouter = require('./routes/users');
 var categoriaRouter = require('./routes/categoria');
 var usuarioRouter = require('./routes/usuario');
 
+var WebSocketServer = require('websocket').server;
+var http = require('http');
+
+var server = http.createServer(function(request, response){
+
+});
+
+
+var mongodb = require('mongodb');
+var MongoClient = require('mongodb').MongoClient;
+var db;
+
+
+MongoClient.connect("mongodb://172.17.0.1:27017", {useNewUrlParser : true},
+  function(err, database) {
+    if(err) throw err;
+    db = database.db('twitter');
+      // Start the application after the database connection is ready
+  }
+);
+
+var ip = require('ip');
+
+//var HOST = '127.0.0.1'; // parameterize the IP of the Listen
+var HOST = ip.address(); // parameterize the IP of the Listen
+var PORT = 5000; // TCP LISTEN port
+
+
+server.listen(PORT,function(){ });
+
+var wsServer = new WebSocketServer({
+  httpServer :server
+});
+
+wsServer.on('request', function(request){
+
+  var connection = request.accept(null , request.origin);
+
+  connection.on('message',function(message){
+
+    var data = message.utf8Data;
+    //console.log("llego el mensaje que esperaba");
+      var arr = String(data).split("&");
+      //console.log("RECIBIDO" + data + ": espacios => " + arr.length);
+
+      if(arr.length == 3){
+        var usuario = (arr[0]).split("=")[1];
+        var nombre = arr[1].split("=")[1];
+        var texto = arr[2].split("=")[1].trim();
+        var categoria = texto.split("#")[1].split(" ")[0].trim();
+
+        var registro =  { "alias_usuario" : usuario
+                , "nombre_usuario" : nombre
+                , "txt_mensaje" : texto
+                , "categoria_mensaje" : categoria  
+                };
+
+        
+        console.log("--->INSERTANDO UN NUEVO REGISTRO DE TWITS!!!");
+
+      var coleccion = db.collection('TWITS');
+      coleccion.insertOne(registro);    
+    }else{
+
+    }
+
+
+    //console.log("MENSAJE RECIBIDO" + message.utf8Data);
+  });
+
+  connection.on('close', function(connection){
+
+  });
+
+});
+
+
 var app = express();
 /*
 var expressWs = require('express-ws');

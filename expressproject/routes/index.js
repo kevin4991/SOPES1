@@ -71,15 +71,6 @@ app.listen(5000);
 
 */
 
-var net = require('net');
-var ip = require('ip');
-console.log("DIRECCION EN LA QUE ESTOY EJECUTANDOME: " + ip.address());
-
-
-//var HOST = '127.0.0.1'; // parameterize the IP of the Listen
-var HOST = ip.address(); // parameterize the IP of the Listen
-var PORT = 5000; // TCP LISTEN port
-
 //conexion con mongodb
 
 /*
@@ -100,119 +91,6 @@ MongoClient.connect("mongodb://172.17.0.1:27017", {useNewUrlParser : true},
   		// Start the application after the database connection is ready
 	}
 );
-
-
-/*
-const db_n = MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, 
-		function(err, db) {
-			if (err) {
-				//throw err;
-				return null;
-			}else{
-				return db;
-				//db_n = db;
-			}
-		}
-	);
-*/
-
-
-// Create an instance of the Server and waits for a conexão
-net.createServer(function(sock) {
-
-  // Receives a connection - a socket object is associated to the connection automatically
-  //console.log('CONNECTED: ' + sock.remoteAddress +':'+ sock.remotePort);
-
-
-  // Add a 'data' - "event handler" in this socket instance
-  sock.on('data', function(data) {
-	  // data was received in the socket 
-	  // Writes the received message back to the socket (echo)
-	  
-	  //TRATAMIENTO DE LA CADENA
-
-	  var arr = String(data).split("&");
-	  //console.log("RECIBIDO" + data + ": espacios => " + arr.length);
-
-	  if(arr.length == 3){
-	  	var usuario = (arr[0]).split("=")[1];
-	  	var nombre = arr[1].split("=")[1];
-	  	var texto = arr[2].split("=")[1].trim();
-	  	var categoria = texto.split("#")[1].split(" ")[0].trim();
-
-	  	var registro =  { "alias_usuario" : usuario
-	  					, "nombre_usuario" : nombre
-	  					, "txt_mensaje" : texto
-	  					, "categoria_mensaje" : categoria  
-	  					};
-
-	  	
-	  	console.log("--->INSERTANDO UN NUEVO REGISTRO DE TWITS!!!");
-
-		var coleccion = db.collection('TWITS');
-		coleccion.insertOne(registro);		
-
-/*
-		var MongoClient = require('mongodb').MongoClient;
-
-		MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, function(err, db) {
-			if (err) {
-				throw err;
-			}else{
-
-				const dbs = db.db('twitter');
-				var coleccion = dbs.collection('TWITS');
-				coleccion.insertOne(registro);
-
-			}
-
-			//console.log("-- USR => " + usuario + "\n : NOMBRE => " + nombre + "\n : TEXTO = " + texto + " : espacios => " + arr.length + " : categoria=> " + categoria + "\n");
-		});
-		*/
-	  }else{
-	  	//console.log("Mensaje incorrecto, la cadena enviada no es reconocida!!");
-	  }
-
-
-
-	  /*
-		var MongoClient = require('mongodb').MongoClient;
-
-		MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, function(err, db) {
-		  if (err) {
-		    throw err;
-		  }
-
-		  const dbs = db.db('twitter');
-
-		  dbs.collection('TWITS').find().toArray(function(err, result) {
-		    if (err) {
-		      throw err;
-		    }
-		    console.log(result);
-		  });
-
-		});
-		*/
-
-	  //sock.write(data);
-  });
-
-  sock.on('message', function(msg){
-  	console.log(msg);
-  });
-
-  // Add a 'close' - "event handler" in this socket instance
-  sock.on('close', function(data) {
-	  // closed connection
-	  //console.log('CLOSED: ' + sock.remoteAddress +' '+ sock.remotePort);
-  });
-
-
-}).listen(PORT, HOST);
-
-
-console.log('Server listening on ' + HOST +':'+ PORT);
 
 /* GET home page. */
 router.get('/index', function(req, res, next) {
