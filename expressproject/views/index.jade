@@ -45,7 +45,7 @@ block content
     $("#btn_categoria").click(function(){
         var ct = $("#input_categoria").val();
     	if(ct!=""){
-      window.location = "http://127.0.0.1:3000/a_cat" + "/" + ct;
+      window.location = "http://localhost/a_cat" + "/" + ct;
       }else{
        alert("INGRESE UN VALOR DE CATEGORIA");
       }
@@ -54,7 +54,7 @@ block content
     $("#btn_usuario").click(function(){
     	var ustd = $("#input_usuario").val();
       if(ustd != ""){
-       window.location = "http://127.0.0.1:3000/a_us" + "/" + ustd;
+       window.location = "http://localhost/a_us" + "/" + ustd;
       }else{
        alert("INGRESE UN VALOR DE USUARIO");
       }
