@@ -24,10 +24,11 @@ var HOST = ip.address(); // parameterize the IP of the Listen
 var PORT = 5000; // TCP LISTEN port
 
 
-server.listen(PORT,"0.0.0.0");
+server.listen(PORT,"0.0.0.0", function(){
+  console.log("VIENDO QUE PEDO:" + server.hostname);
+});
 
 var wsServer = new WebSocketServer({
-  console.log("VIENDO QUE PEDO:" + server.hostname);
   httpServer :server
 });
 
