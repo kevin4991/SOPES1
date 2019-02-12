@@ -24,7 +24,7 @@ var HOST = ip.address(); // parameterize the IP of the Listen
 var PORT = 5000; // TCP LISTEN port
 
 
-server.listen(PORT,"0.0.0.0", function(){
+server.listen(PORT,HOST, function(){
   console.log("VIENDO QUE PEDO:" + server.address().host);
   console.log("VIENDO QUE PEDO:" + server.address().port);
   console.log("VIENDO QUE PEDO:" + server.address().hostname);
