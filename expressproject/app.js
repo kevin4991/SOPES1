@@ -53,7 +53,7 @@ wsServer.on('request', function(request){
   connection.on('message',function(message){
 
     var data = message.utf8Data;
-    //console.log("llego el mensaje que esperaba");
+    console.log("llego el mensaje que esperaba");
       var arr = String(data).split("&");
       //console.log("RECIBIDO" + data + ": espacios => " + arr.length);
 
