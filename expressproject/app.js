@@ -16,6 +16,22 @@ var server = http.createServer(function(request, response){
 });
 
 
+
+var ip = require('ip');
+
+//var HOST = '127.0.0.1'; // parameterize the IP of the Listen
+var HOST = ip.address(); // parameterize the IP of the Listen
+var PORT = 5000; // TCP LISTEN port
+
+
+server.listen(PORT,"0.0.0.0");
+
+var wsServer = new WebSocketServer({
+  console.log("VIENDO QUE PEDO:" + server.hostname);
+  httpServer :server
+});
+
+
 var mongodb = require('mongodb');
 var MongoClient = require('mongodb').MongoClient;
 var db;
@@ -28,19 +44,6 @@ MongoClient.connect("mongodb://172.17.0.1:27017", {useNewUrlParser : true},
       // Start the application after the database connection is ready
   }
 );
-
-var ip = require('ip');
-
-//var HOST = '127.0.0.1'; // parameterize the IP of the Listen
-var HOST = ip.address(); // parameterize the IP of the Listen
-var PORT = 5000; // TCP LISTEN port
-
-
-server.listen(PORT,HOST,function(){ });
-
-var wsServer = new WebSocketServer({
-  httpServer :server
-});
 
 wsServer.on('request', function(request){
 
