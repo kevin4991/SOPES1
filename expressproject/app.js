@@ -13,7 +13,6 @@ var WebSocketServer = require('websocket').server;
 var http = require('http');
 
 var server = http.createServer(function(request, response){
-
 });
 
 
@@ -37,7 +36,7 @@ var HOST = ip.address(); // parameterize the IP of the Listen
 var PORT = 5000; // TCP LISTEN port
 
 
-server.listen(PORT,function(){ });
+server.listen(PORT,HOST,function(){ });
 
 var wsServer = new WebSocketServer({
   httpServer :server
