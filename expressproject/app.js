@@ -60,7 +60,7 @@ wsServer.on('request', function(request){
   connection.on('message',function(message){
 
     var data = message.utf8Data;
-    console.log("llego el mensaje que esperaba");
+    //console.log("llego el mensaje que esperaba");
       var arr = String(data).split("&");
       //console.log("RECIBIDO" + data + ": espacios => " + arr.length);
 
@@ -77,7 +77,7 @@ wsServer.on('request', function(request){
                 };
 
         
-        console.log("--->INSERTANDO UN NUEVO REGISTRO DE TWITS!!!");
+        //console.log("--->INSERTANDO UN NUEVO REGISTRO DE TWITS!!!");
 
       var coleccion = db.collection('TWITS');
       coleccion.insertOne(registro);    
