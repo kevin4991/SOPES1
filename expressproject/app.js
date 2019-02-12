@@ -25,7 +25,10 @@ var PORT = 5000; // TCP LISTEN port
 
 
 server.listen(PORT,"0.0.0.0", function(){
-  console.log("VIENDO QUE PEDO:" + server.address());
+  console.log("VIENDO QUE PEDO:" + server.address().host);
+  console.log("VIENDO QUE PEDO:" + server.address().port);
+  console.log("VIENDO QUE PEDO:" + server.address().hostname);
+  console.log(server.address());
 });
 
 var wsServer = new WebSocketServer({
